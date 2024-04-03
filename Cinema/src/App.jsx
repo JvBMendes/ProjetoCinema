@@ -1,12 +1,13 @@
 
-import './App.css'
+import './App.module.css'
+import Menu from "./Components/Menu.jsx"
 
 function App() {
   
 
   return (
     <>
-      <h1>ta la menininho</h1>
+      <Menu/>
     </>
   )
 }

@@ -1,4 +1,16 @@
 :root {
-
+    --bg-primary: #172171;
+    --box-shadow: #524fa7;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+  }
 
