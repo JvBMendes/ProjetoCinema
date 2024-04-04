@@ -5,7 +5,9 @@ export default function Menu(){
     return(
         <>
             <div className={style.WrapMenu}>
-                <h2 >POPFLIX</h2>
+                <div className={style.tittle}>
+                    <h2 >POPFLIX</h2>
+                </div>
                 <div className={style.WrapA}>
                     <a href="/">Home</a>
                     <a href="/">Cinemas</a>
