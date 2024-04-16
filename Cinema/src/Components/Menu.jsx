@@ -4,18 +4,23 @@ import style from "./Menu.module.css"
 export default function Menu(){
     return(
         <>
-            <div className={style.WrapMenu}>
-                <div className={style.tittle}>
-                    <h2 >POPFLIX</h2>
-                </div>
-                <div className={style.WrapA}>
-                    <a href="/">Home</a>
-                    <a href="/">Cinemas</a>
-                    <a href="/">Notícias</a>
-                </div>
-            </div>
-        </>
-        
+            <header className={style.header}>         
+                    <a className={style.logo} href="">POPFLIX</a>
+                    
+                <nav className={style.nav}>
+                    <ul className={style.menu}>
+                         <li> <a href="/">Home</a></li>
+                         <li> <a href="/">Notícias</a></li>
+                         <li> <a href="/">Cinemas</a></li>
+                         <li> <a href="/">Contato</a></li>
+                    </ul>
+                </nav>
+                <div style={{width:100}}></div>              
+            </header>
 
+
+                    
+        </>
+       
     )
 }

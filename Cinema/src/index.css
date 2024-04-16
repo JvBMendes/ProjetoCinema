@@ -1,5 +1,5 @@
 :root {
-    --bg-primary: #172171;
+    --bg-primary: #082b2d;
     --box-shadow: #524fa7;
 }
 
@@ -8,9 +8,22 @@
     margin: 0;
 }
 
+
+body{
+    background-color: #21575a90;
+
+}
+
 a{
     text-decoration: none;
     color: white;
-    
+    font-family: sans-serif;
+    transition: background 0.2s ease;
+    border-radius: 100px;
   }
+
+a:hover{
+    
+    background: rgba(0, 0, 0, .05);
+}
 
