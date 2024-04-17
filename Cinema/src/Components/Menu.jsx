@@ -1,9 +1,10 @@
 import style from "./Menu.module.css"
-
+import {User} from "lucide-react"
 
 export default function Menu(){
     return(
         <>
+
             <header className={style.header}>         
                     <a className={style.logo} href="">POPFLIX</a>
                     
@@ -15,7 +16,10 @@ export default function Menu(){
                          <li> <a href="/">Contato</a></li>
                     </ul>
                 </nav>
-                <div style={{width:100}}></div>              
+                <div className={style.wrapButtons}>
+                         <button className={style.Button2}><User className={style.userIcon}/> ENTRAR</button>
+                         <button className={style.Button1}>CADASTRAR</button>
+                    </div>              
             </header>
 
 

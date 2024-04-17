@@ -5,15 +5,18 @@
     padding: 1rem;
     align-items: center;
     background-color: var(--bg-primary);
-    justify-content: space-between;
     box-shadow: 0px 4px 20px 0px rgba(33,87,90,1);
+    justify-content: space-between;
+    width: 100%;
     
     
 }
 
 
 .menu{
+    padding-left: 100px;
     display: flex;
+    align-items:center ;
     list-style: none;
     gap: .5rem;
 }
@@ -25,8 +28,56 @@
     padding: .5rem;
 }
 
+.wrapButtons{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.Button1{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    height: 4vh;
+    width: 6vw;
+    border-style: solid;
+    border-color:#21575a;
+    border-radius: 10rem;
+    background-color: var(--bg-primary);
+    color: white;
+}
+
+.Button1:hover{
+    cursor: pointer;
+    background-color: #21575a;
+}
+
+.userIcon{
+    color: white;
+}
+
+.Button2{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    height: 4vh;
+    width: 6vw;
+    background-color: var(--bg-primary);
+    color: white;
+    border-style: none;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.Button2:hover{
+     cursor: pointer;
+}
+
 
 .logo{
+    display: flex;
+    justify-content: flex-start;
     font-family: "Poppins", sans-serif;
     font-size: 2.5rem;
     

@@ -1,5 +1,5 @@
 :root {
-    --bg-primary: #082b2d;
+    --bg-primary: black;
     --box-shadow: #524fa7;
 }
 
@@ -10,7 +10,7 @@
 
 
 body{
-    background-color: #21575a90;
+    background-color: #111111;
 
 }
 
