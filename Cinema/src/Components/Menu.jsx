@@ -11,7 +11,7 @@ export default function Menu(){
                 <nav className={style.nav}>
                     <ul className={style.menu}>
                          <li> <a href="/">Home</a></li>
-                         <li> <a href="/">Notícias</a></li>
+                         <li> <a href="/Noticias">Notícias</a></li>
                          <li> <a href="/">Cinemas</a></li>
                          <li> <a href="/">Contato</a></li>
                     </ul>
